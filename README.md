@@ -21,7 +21,7 @@ I built it as a **learning project** to practice working with **NumPy arrays** a
 |------------------|-------------|
 | **Left Mouse**   | Add a live cell |
 | **SPACE**        | Start / Pause the simulation |
-| **R**            | Reset the grid (clear all cells) |
+| **ESC**            | Reset the grid (clear all cells) |
 | **Close Window** | Quit the program |
 
 ---

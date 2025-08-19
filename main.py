@@ -35,7 +35,7 @@ def main():
     pygame.init()
     screen=pygame.display.set_mode((800,600))
     pygame.display.set_caption("Game of Life")
-    cells=np.zeros((60,80))
+    cells=np.zeros((100,100))
     screen.fill(COLOR_BG)
     update(screen,cells,10)
 
@@ -54,7 +54,7 @@ def main():
                     running=not running
                     update(screen,cells,10)
                     pygame.display.update()
-                elif event.key == pygame.K_r:   # Reset simulation
+                elif event.key == pygame.K_ESCAPE:   # Reset simulation
                     cells = np.zeros((60, 80), dtype=int)
                     screen.fill(COLOR_BG)
                     update(screen, cells, 10)

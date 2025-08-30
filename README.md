@@ -67,3 +67,5 @@ python game_of_life.py
 The Game of Life is a **cellular automaton** devised by mathematician **John Conway**.  
 It’s a **zero-player game**: once started, it evolves automatically from the initial state, following simple rules.  
 Despite its simplicity, it can generate very **complex and beautiful patterns**.
+
+### I used Cursor for everything in this repo.
